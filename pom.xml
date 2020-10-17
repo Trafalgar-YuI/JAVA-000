@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>yui.hesstina</groupId>
+    <artifactId>geektime-java-traning-camp-000</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>Week_01</module>
+        <module>Week_02</module>
+        <module>Week_03</module>
+        <module>Week_04</module>
+        <module>Week_05</module>
+        <module>Week_06</module>
+        <module>Week_07</module>
+        <module>Week_08</module>
+        <module>Week_09</module>
+        <module>Week_10</module>
+        <module>Week_11</module>
+        <module>Week_12</module>
+        <module>Week_13</module>
+        <module>Week_14</module>
+        <module>Week_15</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <spring.version>5.2.2.RELEASE</spring.version>
+        <maven.compiler.plugin>3.8.1</maven.compiler.plugin>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
