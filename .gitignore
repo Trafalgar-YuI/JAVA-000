@@ -120,20 +120,3 @@ fabric.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
-Week_01/src/
-Week_02/src/
-Week_03/src/
-Week_04/src/
-Week_05/src/
-Week_06/src/
-Week_07/src/
-Week_08/src/
-Week_09/src/
-Week_10/src/
-Week_11/src/
-Week_12/src/
-Week_13/src/
-Week_14/src/
-Week_15/src/
-src/
