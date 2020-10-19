@@ -19,9 +19,16 @@ public class HelloClassLoader extends ClassLoader {
         HelloClassLoader helloClassLoader = new HelloClassLoader();
 
         try {
-            Object hello = helloClassLoader.findClass("Hello").newInstance();
+            // 实例化
+            Object hello = helloClassLoader
+                    .findClass("Hello")
+                    .getConstructor()
+                    .newInstance();
+
+            // 获取到方法
             Method method = hello.getClass().getMethod("hello");
 
+            // 方法调用
             method.invoke(hello);
         } catch (Exception e) {
             e.printStackTrace();
