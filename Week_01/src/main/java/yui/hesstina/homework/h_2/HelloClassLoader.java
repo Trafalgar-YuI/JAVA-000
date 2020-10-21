@@ -1,4 +1,4 @@
-package yui.hesstina.homework;
+package yui.hesstina.homework.h_2;
 
 import java.io.File;
 import java.io.FileInputStream;
