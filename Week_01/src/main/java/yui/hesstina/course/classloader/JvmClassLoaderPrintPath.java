@@ -18,10 +18,12 @@ public class JvmClassLoaderPrintPath {
     public static void main(String[] args) {
         // 启动类加载器
         URL[] urls = Launcher.getBootstrapClassPath().getURLs();
+
         System.out.println("启动类加载器" + " ClassLoader " + Launcher.getBootstrapClassPath().toString() );
         for (URL url : urls) {
             System.out.println(" ==> " + url.getPath());
         }
+        printClassLoader("启动类加载器", URLClassLoader.getSystemClassLoader());
 
         // 扩展类加载器
         printClassLoader("扩展类加载器", JvmClassLoaderPrintPath.class.getClassLoader().getParent());
