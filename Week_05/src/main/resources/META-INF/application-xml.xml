@@ -8,4 +8,26 @@
         <property name="name" value="YuI"/>
     </bean>
 
+    <bean id="student123"
+          class="yui.hesstina.homework.w2.q4.bean.Student">
+        <property name="id" value="123" />
+        <property name="name" value="KK123" />
+    </bean>
+
+    <bean id="student100"
+          class="yui.hesstina.homework.w2.q4.bean.Student">
+        <property name="id" value="100" />
+        <property name="name" value="KK100" />
+    </bean>
+
+    <bean id="class1" class="yui.hesstina.homework.w2.q4.bean.Klass">
+        <property name="students">
+            <list>
+                <ref bean="student100" />
+                <ref bean="student123" />
+            </list>
+        </property>
+    </bean>
+
+
 </beans>
