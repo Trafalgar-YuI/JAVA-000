@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-yui.hesstina.homework.w2.q4.config.CustomeAutoConfiguration
+yui.hesstina.homework.w2.q4.config.CustomAutoConfiguration

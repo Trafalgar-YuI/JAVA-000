@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Import;
 
 /**
  * @package: yui.hesstina.homework.w2.q4.config
- * @class: CustomeAutoConfiguration
+ * @class: CustomAutoConfiguration
  * @description:
  * @author: YuI
  * @create: 2020/11/22 15:12 
@@ -13,5 +13,5 @@ import org.springframework.context.annotation.Import;
  **/
 @Configuration
 @Import(CustomConfiguration.class)
-public class CustomeAutoConfiguration {
+public class CustomAutoConfiguration {
 }
